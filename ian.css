@@ -1,0 +1,61 @@
+body {
+	background: url(Images/background.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+}
+
+#buttons {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+  	background-color: white;
+  	opacity: 0.8;
+  	position: fixed;
+  	top: 0;
+  	width: 100%;
+}
+
+.button {
+	float: right;
+}
+
+#logo {
+	float: left;
+}
+
+#logo a {
+	display: block;
+	padding: 12px;
+	font-family: "Arial";
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+.button a {
+	display: block;
+	padding: 12px;
+	font-family: "Arial";
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+.button a:hover {
+	background-color: black;
+	color: white;
+}
+
+
+
+#info {
+	width: 50%;
+	height: 1000px;
+	background-color: white;
+	opacity: 0.8;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+}
