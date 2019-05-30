@@ -1,8 +1,12 @@
-body {
-	background: url(Images/background.png);
-	background-size: 100%;
-	background-repeat: no-repeat;
-  	background-attachment: fixed;
+body{color:#000;
+	font-family:Arial,sans-serif;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	background:#171e03 url("Images/background.png") scroll center top no-repeat;
+	background-size:100% auto}
+
+#navbar {
+	z-index: 1;
 }
 
 #buttons {
@@ -18,26 +22,30 @@ body {
 }
 
 .button {
-	float: right;
-}
-
-#logo {
 	float: left;
 }
 
-#logo a {
-	display: block;
-	padding: 12px;
-	font-family: "Arial";
-	color: black;
-	text-decoration: none;
-	text-align: center;
+#logo {
+	float: right;
 }
 
 .button a {
 	display: block;
-	padding: 12px;
+	padding: 18px;
 	font-family: "Arial";
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	z-index: 1;
+}
+
+#logo a {
+	display: block;
+	padding: 8px;
+	padding-right: 50px;
+	font-family: "Verdana";
+	font-size: 24px;
 	color: black;
 	text-decoration: none;
 	text-align: center;
@@ -51,11 +59,19 @@ body {
 
 
 #info {
-	width: 50%;
-	height: 1000px;
+	width: 40%;
+	height: 2000px;
 	background-color: white;
 	opacity: 0.8;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10%;
+	position: relative;
+	z-index: 0;
+	padding: 5%;
+}
+
+#info p {
+	font-family: "Arial"
+	font-size: 10;
 }
